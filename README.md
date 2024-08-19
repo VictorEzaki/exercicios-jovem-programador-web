@@ -1,2 +1,2 @@
 # exercicios-jovem-programador-web
-Exercícios realizados do Jovem Programador
+<li>Exercícios realizados do módulo WEB do Jovem Programador</li>
