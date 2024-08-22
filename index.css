@@ -8,6 +8,8 @@ body{
     text-align: center;
     padding-top: 2rem;
     font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0, 0.1);
 }
 
 main{
@@ -24,11 +26,12 @@ main{
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    padding: 2rem;
+    padding: 4rem;
     width: 20rem;
-    height: 15rem;
+    height: auto;
     background-color: white;
     border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
 }
 
 .main-tittle{

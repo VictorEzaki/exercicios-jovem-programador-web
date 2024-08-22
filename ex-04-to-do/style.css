@@ -50,6 +50,11 @@ main{
     height: 2rem;
 }
 
+button:hover{
+    opacity: 95%;
+    cursor: pointer;
+}
+
 ul{
     flex: 1 0 auto;
 }
