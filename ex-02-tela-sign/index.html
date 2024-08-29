@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="../reset/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <section class="main-container" id="main-container">
+        <section class="form" id="form">
+            <form action="">
+                <h1 class="title" id="title">
+                    Sign-In
+                </h1>
+                <p class="paragraph" id="paragraph">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse neque consequatur aliquid.
+                </p><br>
+
+                <input type="text" class="campos" id="username" name="username" placeholder="Username" required>
+                <input type="password" class="campos" id="password" name="password" placeholder="Email" required><br><br>
+
+                <div id="remember-me">
+                    <input type="checkbox" class="remember" id="remember-check" name="remember">
+                    <label for="remember-check" class="remember" id="remember">Remember me</label>
+                    <a href="forgot-password" id="forgot-password">Fogot Password</a>
+                </div><br>
+
+                <div id="btn">
+                    <button type="submit" class="buttons" id="login">Log in</button><br>
+                    <p class="paragraph" id="or">- Or -</p><br>
+                    <button type="submit" class="buttons" id="login-facebook"><img src="src/images.png" alt="" class="logos">Log in with Facebook</button>
+                    <button type="submit" class="buttons" id="login-twitter"><img src="src/twitter.png" alt="" class="logos">Log in with twitter</button>
+                    <button type="submit" class="buttons" id="login-google"><img src="src/google-logo--v2.png" alt="" class="logos">Log in with google</button>
+                </div>
+            </form>
+        </section>
+
+        <div class="img" id="img">
+            <img src="./src/images.jpg" alt="Imagem de uma mulher na rua" id="img-background">
+        </div>
+    </section>
+</body>
+</html>
